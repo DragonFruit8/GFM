@@ -1,7 +1,7 @@
 
 function PastCampaigns() {
   return (
-    <div className='container mt-5 py-5'>Past Campaigns comming soon...</div>
+    <div className='container-xl mt-5 py-5 border '>Past Campaigns section comming soon...</div>
   )
 }
 
