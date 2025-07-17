@@ -1,7 +1,9 @@
+
 import Featured from "../components/Featured";
 import PastCampaigns from "../components/PastCampaigns";
 
 function Campaignpage () {
+ 
   return (
     <>
     <div className="container">
