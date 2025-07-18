@@ -60,15 +60,10 @@ button:focus-visible {
   min-height: 600px;
 }
 .statsMeter {
-  position: fixed;
   display: flex;
-  min-width: 97vw;
-  
+  width: 100%;
   min-height: clamp(164px,260px, 13em);
-  bottom: .5em;
-  right: .5em;
-  background-color: blue;
-  z-index: 1000;
+  user-select: none;
 }
 @media (prefers-color-scheme: light) {
   :root {
