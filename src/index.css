@@ -59,6 +59,12 @@ button:focus-visible {
   min-width: 80vw;
   min-height: 600px;
 }
+.statsMeter {
+  display: flex;
+  width: 100%;
+  min-height: clamp(164px,260px, 13em);
+  user-select: none;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -7,6 +7,7 @@ function FormSubmission () {
         className="airtable-embed airtable-form"
         src="https://airtable.com/embed/app2EnT4mFuanmfyF/pagsu3F1L3N1XtZnw/form"
         frameborder="0"
+        loading="lazy"
         // onmousewheel=""
         width="100%"
         height="800px"
