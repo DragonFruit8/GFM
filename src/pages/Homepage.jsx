@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Campaignpage from "./Campaignpage";
+import CampaignForm from '../../forms/campaignForm';
 
 function Homepage () {
   return (
@@ -15,6 +16,7 @@ function Homepage () {
     </div> 
     </div> </div> </section>
     <Campaignpage />
+    <CampaignForm />
     </>
   );
 }
