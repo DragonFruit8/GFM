@@ -26,11 +26,11 @@ function Header({
             </div>
           : null}
         {ctaTextA && ctaALink
-          ? <div className={'d-inline-flex gap-2 mb-5'}>
+          ? <div className={'d-flex flex-wrap justify-content-center gap-2 mb-5 flex-wrap'}>
               <Link
                 className={
                   ctaALink
-                    ? 'd-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill'
+                    ? 'd-flex justify-content-center align-content-center btn btn-primary btn-lg px-4 rounded-pill'
                     : ''
                 }
                 type="button"

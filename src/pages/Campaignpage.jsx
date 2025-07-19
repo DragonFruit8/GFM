@@ -6,9 +6,9 @@ import Header from '../components/Header';
 
 function Campaignpage () {
   return (
-    <div className="container">
+    <div className="container-md">
       <Header
-        title={'Family Name Here'}
+        title={'The Alaaeddin Family'}
         description={
           'Current Goal: Raise $665 for immediate food access!'
         }
