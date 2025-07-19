@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 .airtable-form {
   background: transparent; 
@@ -54,6 +55,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+/* Navbar */
+.navbar {
+  max-width: 100vmax;
 }
 .gfm-embed {
   display: flex;
