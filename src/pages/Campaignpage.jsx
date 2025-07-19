@@ -1,25 +1,31 @@
-import { Link } from 'react-router-dom';
-import Featured from "../components/Featured";
-import PastCampaigns from "../components/PastCampaigns";
+// import {Link} from 'react-router-dom';
+import Featured from '../components/Featured';
+import PastCampaigns from '../components/PastCampaigns';
 import FeatureStats from '../components/FeatureStats';
+import Header from '../components/Header';
 
 function Campaignpage () {
   return (
-    <>
     <div className="container">
-      <FeatureStats />
-    <div className="p-2 p-md-5 my-5 rounded text-body-emphasis bg-body-secondary"> 
-    <div className="col-lg-6 px-0"> 
-    <h2 className="display-5 pb-3 fst-italic">Feature a Fundraising Campaign</h2> 
-    <p className="lead my-3"></p> 
-    <div className="d-flex justify-content-center">
-    <Link to={'/submission'} className="btn btn-primary text-light fw-bold">Submit a Family</Link></div> </div> </div>
+      <Header
+        title={'Family Name Here'}
+        description={
+          'Current Goal: Raise $665 for immediate food access!'
+        }
+        // codeSnippetA={"1) Submit a family's GoFundMe Page"}
+        // codeSnippetB={'2) Raise awarness on the featured family'}
+        // codeSnippetC={'3) Let more people know about #collectiveNetwork'}
+        // ctaTextA={'Submit Campaign'}
+        // ctaTextB={'View Featured Family'}
+        // ctaALink={}
+        // ctaBLink={}
+      />
       <div className="col-lg">
-      <Featured />
-      <PastCampaigns />
+        <FeatureStats />
+        <Featured />
+        <PastCampaigns />
       </div>
     </div>
-    </>
   );
 }
 
