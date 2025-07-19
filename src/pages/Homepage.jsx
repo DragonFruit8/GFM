@@ -1,23 +1,24 @@
-import { Link } from 'react-router-dom';
-import Campaignpage from "./Campaignpage";
-
+import FeatureStats from '../components/FeatureStats';
+import Header from '../components/Header';
 
 function Homepage () {
   return (
-    <>
-    <section className="py-5 my-5 text-center container"> 
-    <div className="row py-lg-5"> 
-    <div className="col-lg-6 col-md-8 mx-auto"> 
-    <h1 className="fw-light">Featured Fundraiers Fund</h1> 
-    <p className="lead text-body-secondary">Here is the introduction for our super campaign webpage for supporting families being effected by atrocities. Submit your campaign, know we are on top of it, and come view the status in 24-48 hours.</p> 
-    <div className='d-flex justify-content-center gap-3'> 
-    <Link to='/submission' className="btn btn-primary my-2">Submit Campaign</Link> 
-        <Link to='/featured' className="btn btn-secondary my-2" >View Current Campaigns</Link> 
-    </div> 
-    </div> </div> </section>
-    <Campaignpage />
-    
-    </>
+    <div>
+      <Header 
+      title={'Collective Network'}
+      description={'Currently, there is a famine that has been declared for citizens of Palestine. Here is how you can help!'}
+      codeSnippetA={"1) Submit a family's GoFundMe Page"}
+      codeSnippetB={'2) Raise awarness on the featured family'}
+      codeSnippetC={'3) Let more people know about #collectiveNetwork'}
+      ctaTextA={'Submit Campaign'}
+      ctaTextB={'View Featured Family'}
+      ctaALink={'/submission'}
+      ctaBLink={'/featured'}
+       />
+    <section className="container-xl pb-5 my-5 text-center"> 
+    <FeatureStats />
+    </section>
+    </div>
   );
 }
 
