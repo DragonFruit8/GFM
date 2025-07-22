@@ -6,6 +6,7 @@ import Campaignpage from './pages/Campaignpage';
 import FormSubmission from './pages/FormSubmission';
 
 
+
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='/featured' element={<Campaignpage />} />
           <Route path='/submission' element={<FormSubmission />} />
+
           </Routes>
     </>
   )

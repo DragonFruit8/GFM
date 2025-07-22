@@ -56,8 +56,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .gfm-embed {
+  display: flex;
   min-width: 80vw;
   min-height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.statsMeter {
+  display: flex;
+  width: 100%;
+  min-height: 260px;
+  user-select: none;
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -69,5 +78,11 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .statsMeter {
+    min-height: 290px;
   }
 }
