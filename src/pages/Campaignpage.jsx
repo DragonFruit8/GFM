@@ -3,12 +3,14 @@ import Featured from '../components/Featured';
 // import PastCampaigns from '../components/PastCampaigns';
 import FeatureStats from '../components/FeatureStats';
 import Header from '../components/Header';
+import family from '../../family.json';
 
 function Campaignpage () {
+    const data = family[0];
   return (
     <div className="container-md">
       <Header
-        title={'The Alaaeddin Family'}
+        title={`The ${data.family_Name}`}
         description={
           'Current Goal: Raise $665 for immediate food access!'
         }

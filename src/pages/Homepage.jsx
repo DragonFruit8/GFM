@@ -1,7 +1,10 @@
 import FeatureStats from '../components/FeatureStats';
 import Header from '../components/Header';
+import UpcomingFeatured from './UpcomingFeatured';
+
 
 function Homepage () {
+
   return (
     <div>
       <Header 
@@ -18,6 +21,7 @@ function Homepage () {
     <section className="container-xl pb-5 my-5 text-center"> 
     <FeatureStats />
     </section>
+    <UpcomingFeatured />
     </div>
   );
 }
