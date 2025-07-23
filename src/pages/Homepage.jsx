@@ -1,4 +1,4 @@
-import FeatureStats from '../components/FeatureStats';
+import CollectiveDonation from '../components/CollectiveDonation';
 import Header from '../components/Header';
 
 function Homepage () {
@@ -15,9 +15,7 @@ function Homepage () {
       ctaALink={'/submission'}
       ctaBLink={'/featured'}
        />
-    <section className="container-xl pb-5 my-5 text-center"> 
-    <FeatureStats />
-    </section>
+       <CollectiveDonation />
     </div>
   );
 }

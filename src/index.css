@@ -66,8 +66,10 @@ button:focus-visible {
   display: flex;
   width: 100%;
   min-height: 260px;
+  margin: 0 auto 0 auto;
   user-select: none;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
