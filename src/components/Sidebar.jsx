@@ -4,9 +4,9 @@ function Sidebar() {
   return (
     <aside className="col-md-4 blog-sidebar">
           <div className="p-3 pt-5">
-            <p className="font-italic"><strong>Resource List</strong></p>
+            <p className="font-italic"><strong>Resources</strong></p>
             <ol className="list-unstyled mb-0">
-              <li><a href="/resources/diy">DIY</a></li>
+              <li><Link to="/resources/water-still">Water Still</Link></li>
               {/* <li><a href="#">February 2014</a></li>
               <li><a href="#">January 2014</a></li>
               <li><a href="#">December 2013</a></li>
@@ -22,7 +22,7 @@ function Sidebar() {
           </div>
 
           <div className="p-3">
-            <p className="font-italic"><strong>Other Links</strong></p>
+            <p className="font-italic"><strong>Links</strong></p>
             <ol className="list-unstyled">
               <li><a href="" aria-disabled="true">Other</a></li>
               <li><a href="" aria-disabled="true">Links</a></li>
