@@ -2,11 +2,12 @@ import Header from '../components/Header';
 function FormSubmission () {
   return (
     <div>
-     <Header 
-      title={'Family Campaign Submit'}
-      description={'Please fill out the form below about the family you wish to raise awareness for.'}
-
-       />
+      <Header
+        title={'Family Campaign Submit'}
+        description={
+          'Please fill out the form below about the family you wish to raise awareness for.'
+        }
+      />
       <iframe
         className="airtable-embed airtable-form"
         src="https://airtable.com/embed/app2EnT4mFuanmfyF/pagsu3F1L3N1XtZnw/form"
@@ -20,4 +21,4 @@ function FormSubmission () {
   );
 }
 
-export default FormSubmission
+export default FormSubmission;

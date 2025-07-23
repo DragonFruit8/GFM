@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import Campaignpage from './pages/Campaignpage';
 import FormSubmission from './pages/FormSubmission';
+import ResourceList from './pages/ResourceList';
 
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='/featured' element={<Campaignpage />} />
           <Route path='/submission' element={<FormSubmission />} />
+          <Route path='/resources' element={<ResourceList />} />
 
           </Routes>
     </>

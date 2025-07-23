@@ -27,6 +27,11 @@ function Navbar () {
               <Link className="nav-link" to='/featured'>Featured Campaign</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to='/resources'>
+                Resources
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link disabled" aria-disabled="true" to={'/'}>
                 Contact Us
               </Link>
