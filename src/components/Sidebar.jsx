@@ -24,9 +24,9 @@ function Sidebar() {
           <div className="p-3">
             <p className="font-italic"><strong>Links</strong></p>
             <ol className="list-unstyled">
-              <li><a href="" aria-disabled="true">Other</a></li>
-              <li><a href="" aria-disabled="true">Links</a></li>
-              <li><a href="" aria-disabled="true">Here</a></li>
+              <li><Link to="/resources" aria-disabled="true">Other</Link></li>
+              <li><Link to="/resources" aria-disabled="true">Links</Link></li>
+              <li><Link to="/resources" aria-disabled="true">Here</Link></li>
             </ol>
           </div>
         </aside>
